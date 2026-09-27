@@ -1,0 +1,24 @@
+[project]
+name = "wind-wind"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kajetannow", email = "kajetan_nowak@interia.eu" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "atlite>=0.6.1",
+    "fastapi[standard]>=0.141.1",
+    "matplotlib>=3.11.2",
+    "notebook>=7.6.3",
+    "pydantic>=2.13.5",
+    "sqlmodel>=0.0.47",
+]
+
+[project.scripts]
+wind-wind = "wind_wind:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"

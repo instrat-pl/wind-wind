@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Atlite cutouts
+*/cutouts/*
+!*/cutouts/*.placeholder
+
+# Availability maps
+*/availability_maps/*
+!*/availability_maps/*.placeholder
+
+# modelled profiles
+*/modelled_profiles/*
+!*/modelled_profiles/*.placeholder
+
+# historical profiles
+*/historical_profiles/*
+!*/historical_profiles/*.placeholder
+
+*.db
+*test.ipynb
